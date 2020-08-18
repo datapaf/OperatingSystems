@@ -1,0 +1,50 @@
+    1  whoami
+    2  hostnamr
+    3  hostname
+    4  man man
+    5  claer
+    6  clear
+    7  man less
+    8  ls
+    9  touch textfile.txt
+   10  gedit
+   11  bg edit textfile.txt
+   12  bg gedit textfile.txt
+   13  gedit textfile.txt &
+   14  cat textfile.txt 
+   15  jobs
+   16  ls | sort -r
+   17  pwd > textfile.txt 
+   18  cat textfile.txt 
+   19  ls
+   20  rm textfile.txt 
+   21  ls
+   22  mkdir week1
+   23  cd week1
+   24  ls /usr/bin
+   25  clear
+   26  ls usr/bin | grep gcc
+   27  ls /usr/bin | grep gcc
+   28  ls /usr/bin | grep gcc | sort -r
+   29  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   30  cat ex1.txt 
+   31  history
+   32  cd ..
+   33  mkdir NewFolder
+   34  ls
+   35  cd NewFolder/
+   36  cat > file1.txt
+   37  history
+   38  ls
+   39  touch file2.txt
+   40  ls
+   41  file3.txt
+   42  ls
+   43  echo > file3.txt
+   44  ls
+   45  cd ..
+   46  rmdir NewFolder/
+   47  rm -r NewFolder/
+   48  history
+   49  ls
+   50  history > ~/week1/ex2.txt
