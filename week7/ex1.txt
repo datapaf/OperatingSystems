@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1992	    608	      8	   2608	    a30	ex1.sh
