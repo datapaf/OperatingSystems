@@ -1,0 +1,5 @@
+8 KB = 2^13 bytes. From here we can deduce that for 8 KB pages
+we need to provide 13 bit for page offets. As we have 16 bit 
+virtual addresses, 16 bits - 13 bits = 3 bits we have for page
+numbers. And using these 3 bits we can overall enumerate up to
+8 pages. 

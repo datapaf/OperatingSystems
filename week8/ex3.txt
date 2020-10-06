@@ -1,0 +1,6 @@
+Running ./ex2 & top -d 1 we can see that the process
+with the command "ex2" that started it increases its
+memory consumption in terms of percentage of using
+memory, physical memory used and virtual memory used.
+At the same time, the percantage of using CPU stays
+more or less the same. 

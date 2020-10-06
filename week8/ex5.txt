@@ -1,0 +1,8 @@
+Physical address is an actual address in the main memory which we can access 
+directly unlike a virtual address. It is often not enough physical addresses
+to provide for all the programs and here we make some illusion of bigger main memory
+using virtual addresses that are greater in their quantity. 
+Virtual addresses are grouped in pages that form a virtual address space. For these pages 
+a special page table is stored to map some pages to some group of physical addresses
+in the main memory. Typically, user programs cannot access just physical memory, they
+access virtual locations.
