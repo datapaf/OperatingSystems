@@ -1,0 +1,11 @@
+	Increasing Hit/Miss ratio:
+The Hit/Miss ratio is going to increase if the sequence
+of necessary pages contains pages numbers that repeat many
+times immediately after their introduction(numbers are clustering)
+Example: 3 3 3 3 3 3 4 4 4 4 1 1 1 1 1 1 1 1 1 1 1
+
+	Decreasing Hit/Miss ratio:
+The Hit/Miss ratio is going to decrease if the sequence
+of necessary pages contains pages numbers that repeat as
+rare as possible(numbers are widely spreaded)
+Example: 5 4 3 2 1 9 8 7 6 5 12 20 5 14 49 9 
