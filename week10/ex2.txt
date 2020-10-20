@@ -1,0 +1,2 @@
+15999946 /home/datapaf/GitHub/OperatingSystems/week1/file.txt
+./_ex2.txt

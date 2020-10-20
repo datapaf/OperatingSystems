@@ -1,0 +1,7 @@
+total 8
+16260563 drwxrwxr-x  2 datapaf datapaf 4096 окт 20 12:58 .
+15996746 drwxrwxr-x 13 datapaf datapaf 4096 окт 20 12:50 ..
+16260565 -rw-rw-r--  3 datapaf datapaf    0 окт 20 12:51 _ex1_1.txt
+16260565 -rw-rw-r--  3 datapaf datapaf    0 окт 20 12:51 _ex1_2.txt
+16260565 -rw-rw-r--  3 datapaf datapaf    0 окт 20 12:51 _ex1.txt
+16260567 -rw-rw-r--  1 datapaf datapaf    0 окт 20 12:58 ex1.txy

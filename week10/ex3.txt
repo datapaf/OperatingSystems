@@ -1,0 +1,22 @@
+-rw-rw-r-- 1 datapaf datapaf 0 окт 20 13:32 _ex3.txt
+-rwxrw-rwx 1 datapaf datapaf 0 окт 20 13:32 _ex3.txt
+-rwxrwxrwx 1 datapaf datapaf 0 окт 20 13:32 _ex3.txt
+
+1) only user and the group can read/write the file
+user 	group	other
+6 	6 	0
+110 	110	000
+rw-	rw-	---
+
+2) user and the group can read/write/execute the file and
+the others can read and execute the file
+user 	group	other
+7 	7 	5
+111 	111	101
+rwx	rwx	r-x
+
+3) user, the group and the others can do anything
+user 	group	other
+7 	7 	7
+111 	111	111
+rwx	rwx	rwx 
