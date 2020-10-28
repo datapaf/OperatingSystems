@@ -1,0 +1,10 @@
+For the program 1 we have two lines of hello as an input.
+The line buffer contained "Hello" and after forking two processes had
+their the same buffers with "Hello". After putting "\n" both processes
+have their buffers filled and the printing happens. 
+
+For the program 2 we have one line of hello and two empty lines as an input.
+The line buffer contained "Hello" and after putting "\n" the buffer became filled, 
+the printing happened. After that the forking goes and two processes had
+their the same empty buffers. After putting "\n" both processes
+have their buffers filled and the printing of empty strings happens. 
