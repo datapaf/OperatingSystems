@@ -1,0 +1,49 @@
+DBUF_SIZE = 1024
+real	0m0,003s
+user	0m0,001s
+sys	0m0,002s
+
+DBUF_SIZE = 512
+real	0m0,003s
+user	0m0,002s
+sys	0m0,001s
+
+DBUF_SIZE = 8
+real	0m0,005s
+user	0m0,000s
+sys	0m0,005s
+
+DBUF_SIZE = 1
+real	0m0,017s
+user	0m0,000s
+sys	0m0,017s
+
+reading and writing happens DBUF_SIZE by DBUF_SIZE bytes
+so the time that copying takes is reversely proportional to the number
+of bytes that the buffer uses  
+
+
+DBUF_SIZE = 1024
+real	0m0,003s
+user	0m0,002s
+sys	0m0,000s
+
+DBUF_SIZE = 512
+real	0m0,004s
+user	0m0,000s
+sys	0m0,002s
+
+DBUF_SIZE = 8
+real	0m0,006s
+user	0m0,000s
+sys	0m0,005s
+
+DBUF_SIZE = 1
+real	0m0,023s
+user	0m0,003s
+sys	0m0,015s
+
+enabling O_SYNC flag allows synchronized I/O and
+this synchronization takes more time so the total 
+time to perform copying increases
+
