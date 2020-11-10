@@ -1,0 +1,13 @@
+Recovery is better to choose in case 
+we want program to proceed its work 
+and the performance is important for us
+
+Prevention is chosen when it is possible 
+to make the system such that one of the conditions
+for deadlocks does not hold and we have to guarantee
+reliability of the system
+
+Avoidance can be chosen when we cannot afford 
+deadlocks and at the same time we are ready to
+scarfice performance of the system.
+
